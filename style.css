@@ -9,10 +9,10 @@
     }
     .container .contactinfo
     {
-        width:100%;
+        width:120%;
     }
     .contactForm{
-        width:200px;
+        width:40px;
     }
 }
 *{
@@ -21,10 +21,25 @@
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
 }
+.contactinfo{
+    background: rgba(5, 20, 59, 0.452);
+    box-shadow: 0 8px 32px 0 rgba(1, 4, 32, 0.37);
+    backdrop-filter: blur( 4.0px );
+    -webkit-backdrop-filter: blur( 4.0px );
+    border-radius: 10px;
+    border: 0px solid rgba(36, 35, 35, 0.18);
+    width:20%;
+    padding: 50px;
+}
+.contactForm{
+    width:80%;
+    background-color: white;
+    border-radius: 20px;
+}
 .contact{
     position: relative;
     min-height: 100vh;
-    padding: 50px 60px;
+    padding: 20px 10px;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -37,7 +52,7 @@
 
 .contact .content
 {
-    max-width: 800px;
+    max-width: 20px;
     text-align: center;
 }
 .contact .content h2
@@ -54,10 +69,9 @@
     
 }
 .container {
-    backdrop-filter:10px 10px 10px blur;
     width:100%;
     display: flex;
-    justify-content:left;
+    justify-content:center;
     align-items: center;
     margin-top: 50px;   
 }
@@ -105,7 +119,7 @@
 .container .contactinfo .box .text
 {
     display: flex;
-    margin-left: 20px;
+    margin-left: 30px;
     font-size: 16px;
     color:#fff;
     flex-direction: column ;
@@ -113,22 +127,22 @@
 }
 .container .contactinfo .box .text h3
 {
-    background-color:black;
+    
     font-weight:500;
     color: #06e2ff;
 }
 .container .contactinfo .box .text p
 {
-    background-color:black;
+   
     font-weight:500;
     font-style: bolder;
     color: #ffffff;
 }
 .contactForm
 {
-    width:40%;
+    width:50%;
     padding: 40px;
-    background:#fff;
+    background:rgb(255, 255, 255);
 }
 .contactForm h2
 {
@@ -169,7 +183,7 @@
 .contactForm .inputbox textarea:focus,
 .contactForm .inputbox textarea:valid
 {
-    color: #1900ff;
+    transition: 0.5s;
     font-size: 12px;
     transform: translate (-20px);
     border-bottom:3px solid rgb(0, 17, 253);
